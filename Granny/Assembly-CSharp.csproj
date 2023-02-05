@@ -56,10 +56,13 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/8K Skybox Pack Free/Example Scenes/Script/RotateCamera.cs" />
     <Compile Include="Assets/Mountain Terrain/Misc/CameraOrbit.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/8K Skybox Pack Free/ReadMe.txt" />
     <None Include="Assets/Day-Night Skyboxes/Textures/Readme for Assigning.txt" />
+    <None Include="Assets/Cloudy Summer Day Skybox/CloudySummerDaySkybox_Info.txt" />
     <None Include="Assets/Day-Night Skyboxes/readme.txt" />
   </ItemGroup>
   <ItemGroup>

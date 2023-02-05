@@ -1,0 +1,1007 @@
+Unity Editor version:    2021.3.18f1 (3129e69bc0c7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/yiwenxu/Documents/GitHub/game-jam/Granny
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59052
+Successfully changed project path to: /Users/yiwenxu/Documents/GitHub/game-jam/Granny
+/Users/yiwenxu/Documents/GitHub/game-jam/Granny
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4401382784] Host "[IP] 192.168.200.160 [Port] 0 [Flags] 2 [Guid] 2848691614 [EditorId] 2848691614 [Version] 1048832 [Id] OSXEditor(0,Yiwens-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4401382784] Host "[IP] 192.168.200.160 [Port] 0 [Flags] 2 [Guid] 2848691614 [EditorId] 2848691614 [Version] 1048832 [Id] OSXEditor(0,Yiwens-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 61.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56527
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000604 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 65.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (392ms)
+		BeginReloadAssembly (26ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (296ms)
+			LoadAssemblies (26ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (73ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001391 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (623ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (490ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (89.1 KB). Loaded Objects now: 3532.
+Memory consumption went from 117.2 MB to 117.1 MB.
+Total: 2.302583 ms (FindLiveObjects: 0.103666 ms CreateObjectMapping: 0.035167 ms MarkObjects: 2.072792 ms  DeleteObjects: 0.090416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36046.926708 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Roof_01.mat
+  artifactKey: Guid(fbc8156b58af0d84bb90e39846914fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Roof_01.mat using Guid(fbc8156b58af0d84bb90e39846914fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016eaca38d47f1528defe4f599f6f005') in 0.087959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Wall_02.mat
+  artifactKey: Guid(1fbb79709dbd15b468058e1e596edb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Wall_02.mat using Guid(1fbb79709dbd15b468058e1e596edb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce96faaac157a6902842168a874b2e81') in 0.007234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Wall_03.mat
+  artifactKey: Guid(bebfb5a3cda268647aaf3316f169915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Wall_03.mat using Guid(bebfb5a3cda268647aaf3316f169915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3148ea2293c9f43f6486d8020693d8') in 0.006864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Wall_04.mat
+  artifactKey: Guid(9fffa256b996fc142b56090f80afc3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Wall_04.mat using Guid(9fffa256b996fc142b56090f80afc3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4897ad699e12281b7446bae89f0e09c3') in 0.004923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Mirror_01.mat
+  artifactKey: Guid(ff5fd1f26b7bff34c9d87e20ddcbff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Mirror_01.mat using Guid(ff5fd1f26b7bff34c9d87e20ddcbff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8edf5e4bb820667effcb0ccc0cc2c4') in 0.005407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.876615 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Bad_02.prefab
+  artifactKey: Guid(feb83e9ae6444fc489647e601c28abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Bad_02.prefab using Guid(feb83e9ae6444fc489647e601c28abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17060da812f86b0bef1b37b62e3827d') in 0.031865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Toilet_01.prefab
+  artifactKey: Guid(cb34e4ff07caf3b4fa18c520a77fdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Toilet_01.prefab using Guid(cb34e4ff07caf3b4fa18c520a77fdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378ddb068c1677d7bb5eb4b6b20ee64d') in 0.005849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Book_01.prefab
+  artifactKey: Guid(13824e9f132912c4f9fe20ef20499b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Book_01.prefab using Guid(13824e9f132912c4f9fe20ef20499b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d3a12d925c973ed153f8db87bdde42') in 0.004170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Candle_01.prefab
+  artifactKey: Guid(b64c9af49d58b2c4a9764faea268119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Candle_01.prefab using Guid(b64c9af49d58b2c4a9764faea268119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67dddae2a8a7b7b0012c8526a4d17d1') in 0.003790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Bank_01.prefab
+  artifactKey: Guid(4f016d7d71767524ea7f250dc49bcc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Bank_01.prefab using Guid(4f016d7d71767524ea7f250dc49bcc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f26c4ecc729437c61c12deea20767bf') in 0.111926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Vase_01.prefab
+  artifactKey: Guid(6f3577ae6bcedb343acf78472cc53f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Vase_01.prefab using Guid(6f3577ae6bcedb343acf78472cc53f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fb60ee83f64534cb0f87cc31dcd070') in 0.005286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Spoon_01.prefab
+  artifactKey: Guid(aec59bdc936776e498e09b5e6ecc6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Spoon_01.prefab using Guid(aec59bdc936776e498e09b5e6ecc6e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed562ec780eaaed2f72b50dbd8051f8') in 0.004325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Box_01.prefab
+  artifactKey: Guid(1b43d84295bcc374b82046b1dba8ca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Box_01.prefab using Guid(1b43d84295bcc374b82046b1dba8ca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac64859ed2b7a13962645c2044bdc09') in 0.005059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Fork.prefab
+  artifactKey: Guid(24468800aea3a6943a37f726151e7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Fork.prefab using Guid(24468800aea3a6943a37f726151e7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03355358ef632052ced8402adac6cb9') in 0.004001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Chair_01.prefab
+  artifactKey: Guid(a71f2c855ebd40c439932798fa52b90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Chair_01.prefab using Guid(a71f2c855ebd40c439932798fa52b90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89882513c474528732bad94bac032b2a') in 0.007234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Lamp_01.prefab
+  artifactKey: Guid(2a57b8725003aef428fb35b991ae041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Lamp_01.prefab using Guid(2a57b8725003aef428fb35b991ae041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88657f2d4a39f93e8d4e71ac55d86955') in 0.215054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.529745 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Wardrobe_02.prefab
+  artifactKey: Guid(ac5221a4b2e1b22428f95aa179e3acd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Wardrobe_02.prefab using Guid(ac5221a4b2e1b22428f95aa179e3acd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b5cccfdd36f24605674f798bedf278') in 0.009385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Wardrobe_03.prefab
+  artifactKey: Guid(3641b442b5f25e1478bcc85eda7a5734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Wardrobe_03.prefab using Guid(3641b442b5f25e1478bcc85eda7a5734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cab7092edeef1adb78c3542aa98868') in 0.006571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/WKitchen_02.prefab
+  artifactKey: Guid(17306a09c47d8b2429de99918823a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/WKitchen_02.prefab using Guid(17306a09c47d8b2429de99918823a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79ef59802bf835de5e6a7e39b37e642') in 0.007092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/WKitchen_03.prefab
+  artifactKey: Guid(965c88f649c047b448a2c37b899f6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/WKitchen_03.prefab using Guid(965c88f649c047b448a2c37b899f6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a51b7817ae81b110fef41711c88be7') in 0.006980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.854901 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Color_01.mat
+  artifactKey: Guid(f876547869a8f51418351ea475b51345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Color_01.mat using Guid(f876547869a8f51418351ea475b51345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78789415a6034f37e7747015ce388039') in 0.012581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Glass_02.mat
+  artifactKey: Guid(9930f8c3dc999bf438867189058da396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Glass_02.mat using Guid(9930f8c3dc999bf438867189058da396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec25f98c529d4673a48d8dae469cfc6') in 0.006790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Glass_01.mat
+  artifactKey: Guid(d3501c7f937844d4e9f7816e317347a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Glass_01.mat using Guid(d3501c7f937844d4e9f7816e317347a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18010598f547cd04a4cf3db712a44072') in 0.008027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Dishes_01.mat
+  artifactKey: Guid(373ccc0c3dac5ec4f86af419544cf451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/Dishes_01.mat using Guid(373ccc0c3dac5ec4f86af419544cf451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5061c24247a24f6a33451a9ad0eedd0') in 0.005622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.459656 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/SkyBoxs/SkyBox_Night.mat
+  artifactKey: Guid(081cecc6b8174094e9347012e545815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/SkyBoxs/SkyBox_Night.mat using Guid(081cecc6b8174094e9347012e545815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cdad71e932b46f13622e8ce98490b5') in 0.111075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/SkyBoxs
+  artifactKey: Guid(fe6f50cff3290c14f967f6933d6048af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Materials/SkyBoxs using Guid(fe6f50cff3290c14f967f6933d6048af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245867b0f92f076046dbae2008479c22') in 0.000456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.870742 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Color_01.png
+  artifactKey: Guid(32e8e3369d0ce9648938ba9aeba39941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Color_01.png using Guid(32e8e3369d0ce9648938ba9aeba39941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae2a5b24fa41623abd9f29da2fe5bd4') in 0.051336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Wall_01.png
+  artifactKey: Guid(dd603640fd6e74d4a865bb4e9dabce17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Wall_01.png using Guid(dd603640fd6e74d4a865bb4e9dabce17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c697d2f516eb4f2bc302e879689e1931') in 0.006420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Color_02.png
+  artifactKey: Guid(5b3c6cfa32ffdbe44ae82135a73d8cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Color_02.png using Guid(5b3c6cfa32ffdbe44ae82135a73d8cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efda0877b8e9c51b889a41a400577497') in 0.003926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Wall_04.png
+  artifactKey: Guid(7b6071a88534a514f80e2263645a3097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Wall_04.png using Guid(7b6071a88534a514f80e2263645a3097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453cadb6c3ab363a21ec0ad02b39c84e') in 0.006215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Floor_01.png
+  artifactKey: Guid(dd773d71c0183fe4fbfef0f952d55c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Floor_01.png using Guid(dd773d71c0183fe4fbfef0f952d55c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee05bf4682e6422ce05ae983a37d249') in 0.006690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Floor.png
+  artifactKey: Guid(630fb7e9b9dde094bbd1c37a4f07e27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Floor.png using Guid(630fb7e9b9dde094bbd1c37a4f07e27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68433e9708e4c19f2a36ecdb4b0dec51') in 0.003898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Wall_06.png
+  artifactKey: Guid(4effccaf328c08c4c9169a31efa11df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Textures/Wall_06.png using Guid(4effccaf328c08c4c9169a31efa11df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113046fb43060d271019f3f3afb7f57d') in 0.004055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.558286 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Bad_02.FBX
+  artifactKey: Guid(15088d3e7c755cf4186172b7bf64c921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Bad_02.FBX using Guid(15088d3e7c755cf4186172b7bf64c921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd204a1403d6a019debea749320bb27a') in 0.227131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Plate.FBX
+  artifactKey: Guid(8d6e7d91c8f969e4db4300f085714600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Plate.FBX using Guid(8d6e7d91c8f969e4db4300f085714600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42638dd3f8f573f19950e6fc7f92ea0d') in 0.006825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Column_02.FBX
+  artifactKey: Guid(e6bd6a8024789764c9e71d3062b1079a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Column_02.FBX using Guid(e6bd6a8024789764c9e71d3062b1079a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f8d473e6337e772edc16dba69d95e9') in 0.006541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Pelvis_01.FBX
+  artifactKey: Guid(bb796ab66e6e1ba4db0d9ba0b77e9995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Pelvis_01.FBX using Guid(bb796ab66e6e1ba4db0d9ba0b77e9995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1815302d41bcc63ddee09dcd4837f92') in 0.006932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Ext_Found_01.FBX
+  artifactKey: Guid(4d75943fc4897734cb0727f9acf45267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Ext_Found_01.FBX using Guid(4d75943fc4897734cb0727f9acf45267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b696cd3aff1ed7e8ded00b9feb7a6ded') in 0.012043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Crane_01.FBX
+  artifactKey: Guid(93137a858202fbc45893155d1d66e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Crane_01.FBX using Guid(93137a858202fbc45893155d1d66e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a84c0943fe6ab2b3d340374551e553a') in 0.010563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Chair.FBX
+  artifactKey: Guid(0f1fe2b3ed9824745a2dda8c040a3d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Chair.FBX using Guid(0f1fe2b3ed9824745a2dda8c040a3d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5068bdc0f94fcf63b4322e5f0ceea06') in 0.006008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Box_02.FBX
+  artifactKey: Guid(90e89cae0a15af44abaacd253ae577ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Box_02.FBX using Guid(90e89cae0a15af44abaacd253ae577ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5db584ee2819e57fea25c427421138') in 0.006950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Box_01.FBX
+  artifactKey: Guid(1ae57bb4008148e429c7523177902f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Box_01.FBX using Guid(1ae57bb4008148e429c7523177902f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2666a7442385d9c34225af0e6ae436f6') in 0.006835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Box_04.FBX
+  artifactKey: Guid(f801029976fceaa4ca047b569c3af2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Box_04.FBX using Guid(f801029976fceaa4ca047b569c3af2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b6241f36ae7986dfe3757c6fc5844d') in 0.006745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Box_03.FBX
+  artifactKey: Guid(f8d1f335516470341b99477045580459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Box_03.FBX using Guid(f8d1f335516470341b99477045580459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7699bf66fdf603377c50db94233b45c0') in 0.007832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Candle_01.FBX
+  artifactKey: Guid(c79c09f15ef05154c8bec80aab77c89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Candle_01.FBX using Guid(c79c09f15ef05154c8bec80aab77c89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462581aa5257b36d633ca98b139cdf44') in 0.006336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Bag_01.FBX
+  artifactKey: Guid(c35421460286a8345afcfe34696b330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Bag_01.FBX using Guid(c35421460286a8345afcfe34696b330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e07695bfa6882f43d017368a398f0f1') in 0.006192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Plinth_Down.FBX
+  artifactKey: Guid(eb479930e739fdf4f8dac7f9708a822f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Plinth_Down.FBX using Guid(eb479930e739fdf4f8dac7f9708a822f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61745952ad8e85568acac46a3a1cd51c') in 0.006457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Column_01.FBX
+  artifactKey: Guid(0cc8e0ce2132c0f4f9d649841d2293bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Column_01.FBX using Guid(0cc8e0ce2132c0f4f9d649841d2293bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ca90a6decf2e928de32b3736355418') in 0.006468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Plinth_Down_Corner.FBX
+  artifactKey: Guid(0575ff6031052fe4ba5da2b5b065b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Plinth_Down_Corner.FBX using Guid(0575ff6031052fe4ba5da2b5b065b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4336d25bc3bb7fbe0e2722e622dcceea') in 0.006908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Bath_01.FBX
+  artifactKey: Guid(2bb136b904c9dc7479a0b529e7871831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Bath_01.FBX using Guid(2bb136b904c9dc7479a0b529e7871831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfa5a38407f79b2b570d95757507979') in 0.010557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.642460 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Plinth_Up_Corner.FBX
+  artifactKey: Guid(dd6f842bc394cff4285ba71335dbdba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Plinth_Up_Corner.FBX using Guid(dd6f842bc394cff4285ba71335dbdba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd352b42f4475618ecabc1464b742e7bc') in 0.013351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Roof_01.FBX
+  artifactKey: Guid(892358defa7726e4f931099a569e3654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Roof_01.FBX using Guid(892358defa7726e4f931099a569e3654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcdf30cf119eb944419f53f5f159272') in 0.010422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Stair_02.FBX
+  artifactKey: Guid(4982a64f8bcd7f04898bbf27bd768670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Stair_02.FBX using Guid(4982a64f8bcd7f04898bbf27bd768670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dda79b4ac46a89d64f11a8bdaf84829') in 0.008857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Table_02.FBX
+  artifactKey: Guid(bf681be2bb13be64080c28d6f0387312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Table_02.FBX using Guid(bf681be2bb13be64080c28d6f0387312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efa137828b8b0cae4a076485c1260c3') in 0.007681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Toilet_01.FBX
+  artifactKey: Guid(9a1cbad7607148542870d63aa053de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Toilet_01.FBX using Guid(9a1cbad7607148542870d63aa053de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6792c611480a19c181e36be71d4fdfbf') in 0.018894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Vase_02.FBX
+  artifactKey: Guid(7ea5c525c76a0f54daf53be824714b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Vase_02.FBX using Guid(7ea5c525c76a0f54daf53be824714b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928c83d491505cae87d3a34bef9cce07') in 0.007017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Door_01_Short.FBX
+  artifactKey: Guid(3addcda4ffe5cef4a9af2657b6032f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Door_01_Short.FBX using Guid(3addcda4ffe5cef4a9af2657b6032f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbf05c3a007875d0705fa892890f678') in 0.009277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Vase_01.FBX
+  artifactKey: Guid(512f1df3a590ebc4b8cf91f4a5a953ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Vase_01.FBX using Guid(512f1df3a590ebc4b8cf91f4a5a953ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77257f832543095499817eb427f56405') in 0.006893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Spoon.FBX
+  artifactKey: Guid(d15e5d79045d00d4c9b3f7a4d26151fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Spoon.FBX using Guid(d15e5d79045d00d4c9b3f7a4d26151fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0048c6ebb0c3e91b379935ede0b684da') in 0.006874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Table_03.FBX
+  artifactKey: Guid(8173233f40bc34c4caa88987b9d4c9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Table_03.FBX using Guid(8173233f40bc34c4caa88987b9d4c9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a71871b5d7a02cd33d67a0b685dab25') in 0.006901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Railing_01.FBX
+  artifactKey: Guid(fe8249b540a081f49a738aacc0c6e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Railing_01.FBX using Guid(fe8249b540a081f49a738aacc0c6e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960b70fcc41a7e90795cc990ffc07e3a') in 0.006071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Sink_01.FBX
+  artifactKey: Guid(de6a27b07008b154c98c2c11e27abb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Sink_01.FBX using Guid(de6a27b07008b154c98c2c11e27abb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97321581330c0ca68a9970dd530e2226') in 0.006751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.307046 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Down.FBX
+  artifactKey: Guid(bbb1cc816f00131429d34ba25ca17131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Down.FBX using Guid(bbb1cc816f00131429d34ba25ca17131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9326519d7e7553dd158e42557ead9daf') in 0.012944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Window_01.FBX
+  artifactKey: Guid(4f80081424693da4cbabe2edf2dd2eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Window_01.FBX using Guid(4f80081424693da4cbabe2edf2dd2eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5742d17a8e98bdbb29368bffbe528847') in 0.008838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Down_Border_A.FBX
+  artifactKey: Guid(8731fd84cff0efa458bfaef25fb33452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Down_Border_A.FBX using Guid(8731fd84cff0efa458bfaef25fb33452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825895a99dfe418937bfbd1209ba4f15') in 0.007151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Roof_01.FBX
+  artifactKey: Guid(a5d5d88548591794abafb3a9e87c22f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wall_Roof_01.FBX using Guid(a5d5d88548591794abafb3a9e87c22f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfc2dfe0948dc6da85fbb34e74473f2') in 0.007659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.430014 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wardrobe_01.FBX
+  artifactKey: Guid(17531d65d9078db4abf9ccad486cd214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wardrobe_01.FBX using Guid(17531d65d9078db4abf9ccad486cd214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830dc259887e4ae2da115293c88cd11b') in 0.010273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wardrobe_03.FBX
+  artifactKey: Guid(fb28ed51f4383854c87973e73a5a8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wardrobe_03.FBX using Guid(fb28ed51f4383854c87973e73a5a8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf550cac3749858b38a0dcc2950fad4') in 0.029602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/WKitchen_03.FBX
+  artifactKey: Guid(c396dbbbcc2c0f74383f30cd52cbbe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/WKitchen_03.FBX using Guid(c396dbbbcc2c0f74383f30cd52cbbe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698657a20ec1202b1f1f922f908560e2') in 0.006723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wardrobe_04.FBX
+  artifactKey: Guid(fc75a0d0a671b6b4a8fef8a3c4b317dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Wardrobe_04.FBX using Guid(fc75a0d0a671b6b4a8fef8a3c4b317dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ac0c89f205e74a248b6570db590024') in 0.006900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Window_Handle_01.FBX
+  artifactKey: Guid(b43342027125dd6408e85f639a801b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/Window_Handle_01.FBX using Guid(b43342027125dd6408e85f639a801b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676eb722185a24fa7f50d727fb57d7ee') in 0.007888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Models/WKitchen_02.FBX
+  artifactKey: Guid(addef676dd48fea49b24109d06a43783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Models/WKitchen_02.FBX using Guid(addef676dd48fea49b24109d06a43783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3207d98fef4cd3eabaa9a3262cedd5') in 0.029582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.616038 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Ext_Found_Corner.prefab
+  artifactKey: Guid(090ac9c1c2a34d843abdded7395b5a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Ext_Found_Corner.prefab using Guid(090ac9c1c2a34d843abdded7395b5a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0da72f50672f54836e86d58b210c53') in 0.005687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Ext_Wall_01_Door_01.prefab
+  artifactKey: Guid(3e2968b08cd84f744a03705708b7bdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Ext_Wall_01_Door_01.prefab using Guid(3e2968b08cd84f744a03705708b7bdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026c8b95cd95c3aec84c7995dcfd7be1') in 0.006314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Ext_Wall_01.prefab
+  artifactKey: Guid(9f622d7fa998d4e4094ac5f452486b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Ext_Wall_01.prefab using Guid(9f622d7fa998d4e4094ac5f452486b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a0bd8dfe6949e198955a3ba9961df8') in 0.007359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Roof_02.prefab
+  artifactKey: Guid(d449cbcf298d18748836f0faf4129021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Roof_02.prefab using Guid(d449cbcf298d18748836f0faf4129021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bfaede03aca66112d4743524e85781') in 0.004431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Roof_Border_02.prefab
+  artifactKey: Guid(8bdcc74b221d71946b4eb71d1cdfc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Roof_Border_02.prefab using Guid(8bdcc74b221d71946b4eb71d1cdfc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d709b7282f8ef06475054db9d7509f') in 0.004688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Ext_Wall_01_Window.prefab
+  artifactKey: Guid(aff407e7722a78f42a0ac93a6eb380fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOWPOLY-Victorian_Mansion_Pack/Prefabs/Exterior/Ext_Wall_01_Window.prefab using Guid(aff407e7722a78f42a0ac93a6eb380fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f179ac1bc739bef84586f3032931ea') in 0.004906 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001080 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17f787000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (616ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.7 KB). Loaded Objects now: 3582.
+Memory consumption went from 136.4 MB to 136.3 MB.
+Total: 2.328292 ms (FindLiveObjects: 0.105541 ms CreateObjectMapping: 0.037125 ms MarkObjects: 2.095125 ms  DeleteObjects: 0.089500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001097 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f9bb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (460ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.7 KB). Loaded Objects now: 3585.
+Memory consumption went from 136.4 MB to 136.3 MB.
+Total: 2.082833 ms (FindLiveObjects: 0.097375 ms CreateObjectMapping: 0.035750 ms MarkObjects: 1.882041 ms  DeleteObjects: 0.066917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1426.238602 seconds.
+  path: Assets/Assets/Dish/Models/Materials/plate03.mat
+  artifactKey: Guid(aef25ea260dab4b4eb3a8d474748355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dish/Models/Materials/plate03.mat using Guid(aef25ea260dab4b4eb3a8d474748355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cbe509d0a1399a971397d183e96d80') in 0.077835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.975970 seconds.
+  path: Assets/Assets/Flour/Model/Milk.fbx
+  artifactKey: Guid(6d7b1b7dbbae8b04999632ec36943117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Flour/Model/Milk.fbx using Guid(6d7b1b7dbbae8b04999632ec36943117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83617d604aef40f60d4eec487a3fab6') in 0.054162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.576183 seconds.
+  path: Assets/Assets/Dish/Models/Materials/mug03.mat
+  artifactKey: Guid(c94f7b7a8f544114ab98802e8b4b23a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dish/Models/Materials/mug03.mat using Guid(c94f7b7a8f544114ab98802e8b4b23a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a917d41b2dd5a611d4bb3363725ac70') in 0.021121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.697724 seconds.
+  path: Assets/3DForge/FantasyExteriors/Village & Towns/Materials/fe_village_colider.mat
+  artifactKey: Guid(8dc24a3a7e4f7ab4db09042993840730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/FantasyExteriors/Village & Towns/Materials/fe_village_colider.mat using Guid(8dc24a3a7e4f7ab4db09042993840730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edbaa605453d383c3493a1180098bce') in 0.005845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078392 seconds.
+  path: Assets/Cloudy Summer Day Skybox/CloudySummerDaySkybox_sky.mat
+  artifactKey: Guid(cf800250cc151714d828cf2cafa805d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cloudy Summer Day Skybox/CloudySummerDaySkybox_sky.mat using Guid(cf800250cc151714d828cf2cafa805d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa615f04ed27c2b49fc92fb74e34e483') in 0.007699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets/Egg/egg.obj
+  artifactKey: Guid(40d6db4da537f471b8535ca4e1cf15e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Egg/egg.obj using Guid(40d6db4da537f471b8535ca4e1cf15e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2956c2b4593d5c37980d3fa18af1d57f') in 0.087421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.441448 seconds.
+  path: Assets/Assets/Dish/Models/Materials/bowl03.mat
+  artifactKey: Guid(31ba592a930f60f44be0e6fb87c51e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dish/Models/Materials/bowl03.mat using Guid(31ba592a930f60f44be0e6fb87c51e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94578b7e8c909402947ab96756ef126a') in 0.038781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Assets/Dish/Models/Materials/bowl01.mat
+  artifactKey: Guid(58cdf033f1f28a945a432478f543aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dish/Models/Materials/bowl01.mat using Guid(58cdf033f1f28a945a432478f543aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cb82826c83e2b3187e5b9b700af40d') in 0.010980 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001212 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f9bb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.611 seconds
+Domain Reload Profiling:
+	ReloadAssembly (611ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.8 KB). Loaded Objects now: 3588.
+Memory consumption went from 144.7 MB to 144.6 MB.
+Total: 2.068292 ms (FindLiveObjects: 0.106875 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.860167 ms  DeleteObjects: 0.063542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002131 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f9bb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (649ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.7 KB). Loaded Objects now: 3592.
+Memory consumption went from 144.7 MB to 144.6 MB.
+Total: 2.111292 ms (FindLiveObjects: 0.103958 ms CreateObjectMapping: 0.035250 ms MarkObjects: 1.905833 ms  DeleteObjects: 0.065625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 383.110910 seconds.
+  path: Assets/8K Skybox Pack Free/Skyboxes/Material/sky-2.mat
+  artifactKey: Guid(9b7ca251e8646c54db0a77ae2021bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8K Skybox Pack Free/Skyboxes/Material/sky-2.mat using Guid(9b7ca251e8646c54db0a77ae2021bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de90518a827805dd6dc0e6b45a372932') in 0.110956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/8K Skybox Pack Free/Skyboxes/Material/sky-5.mat
+  artifactKey: Guid(03389866351d19a47adc95c57d054097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8K Skybox Pack Free/Skyboxes/Material/sky-5.mat using Guid(03389866351d19a47adc95c57d054097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04763fc6653f7e7f307ff473efa53b3a') in 0.027925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/8K Skybox Pack Free/Skyboxes/Material/sky-3.mat
+  artifactKey: Guid(23002981675cee84bbbebf0794b85ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8K Skybox Pack Free/Skyboxes/Material/sky-3.mat using Guid(23002981675cee84bbbebf0794b85ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758bc80776e52625a1381cb05f5d6fc1') in 0.029728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088712 seconds.
+  path: Assets/8K Skybox Pack Free/Skyboxes/Material/sky-8.mat
+  artifactKey: Guid(ebc9df751692e5740abb521f3539fcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8K Skybox Pack Free/Skyboxes/Material/sky-8.mat using Guid(ebc9df751692e5740abb521f3539fcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a4e1b657f75caedbd4b22f0675911c') in 0.026098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/8K Skybox Pack Free/Skyboxes/Material/sky-11.mat
+  artifactKey: Guid(0657637449dfba34f84c2e4cf23683b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8K Skybox Pack Free/Skyboxes/Material/sky-11.mat using Guid(0657637449dfba34f84c2e4cf23683b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a55853bffa608c18349e12db15772e3') in 0.028347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/8K Skybox Pack Free/Skyboxes/Material/sky-9.mat
+  artifactKey: Guid(52d44e5692d0c134f9b2ed3abd21fb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8K Skybox Pack Free/Skyboxes/Material/sky-9.mat using Guid(52d44e5692d0c134f9b2ed3abd21fb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c69d467c2a50478133b7e40dd464a5f') in 0.026868 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001086 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f9bb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yiwenxu/Documents/GitHub/game-jam/Granny/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (607ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.8 KB). Loaded Objects now: 3596.
+Memory consumption went from 144.8 MB to 144.7 MB.
+Total: 2.018250 ms (FindLiveObjects: 0.100250 ms CreateObjectMapping: 0.036667 ms MarkObjects: 1.813750 ms  DeleteObjects: 0.067042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
